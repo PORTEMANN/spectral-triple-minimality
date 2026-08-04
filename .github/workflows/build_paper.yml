@@ -3,12 +3,9 @@ name: Build Paper
 on:
   push:
     branches: [main, master]
-    paths:
-      - 'paper/**'
+    tags: ['v*']
   pull_request:
     branches: [main, master]
-    paths:
-      - 'paper/**'
 
 jobs:
   build-paper:
