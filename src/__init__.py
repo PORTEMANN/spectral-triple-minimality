@@ -1,0 +1,1 @@
+# Spectral Triple Minimality

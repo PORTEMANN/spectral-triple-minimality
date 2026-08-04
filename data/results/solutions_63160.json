@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "protocol": "C12.1-krajewski",
+    "frozen_at": "2026-08-01T00:00:00Z",
+    "author": "Patrice Portemann",
+    "description": "Certified realizations of KO-6 finite spectral triples under the Krajewski amendment.",
+    "total_solutions": 63160,
+    "target_structure": {
+      "scalar_sectors": 1,
+      "bands": 7,
+      "zero_mode": true,
+      "order_one": true,
+      "ko6": true
+    },
+    "bounds": {
+      "max_mij": 3,
+      "max_k": 3,
+      "max_dim_hf": 24
+    }
+  },
+  "minimal_solution": {
+    "id": 0,
+    "k": 2,
+    "dim_hf": 7,
+    "multiplicity_matrix": [[0, 2], [2, 3]],
+    "algebra_type": "commutative",
+    "notes": "The absolute minimal realization: A_F = C^2, H_F = C^7, m = [[0,2],[2,3]]. All four minimality bounds (T1-T3) are saturated here."
+  },
+  "sample_solutions": [
+    {
+      "id": 1,
+      "k": 2,
+      "dim_hf": 8,
+      "multiplicity_matrix": [[1, 2], [2, 3]],
+      "algebra_type": "commutative"
+    },
+    {
+      "id": 2,
+      "k": 2,
+      "dim_hf": 9,
+      "multiplicity_matrix": [[0, 3], [3, 3]],
+      "algebra_type": "commutative"
+    },
+    {
+      "id": 3,
+      "k": 3,
+      "dim_hf": 12,
+      "multiplicity_matrix": [[0, 1, 1], [1, 0, 2], [1, 2, 3]],
+      "algebra_type": "noncommutative"
+    }
+  ],
+  "theorem_summary": {
+    "T1": "dim_HF >= 2R + 1 (general, exact, saturated)",
+    "T2": "R=3, zero chiral: dim_HF >= 7, k >= 2, max(m_ij) >= 3 (proved by arithmetic obstruction)",
+    "T3": "63,160 certified realizations saturate all four bounds",
+    "T4": "M_min(R) = sqf(R) if R odd, 1 if R even (general multiplicity law)"
+  },
+  "negative_results": [
+    {
+      "case": "Standard Model obstruction",
+      "description": "On nodal set (C ⊕ H ⊕ M_3(C)), all margins are even; sqf law does NOT constrain number of generations N.",
+      "reference": "Theorem T4 Corollary"
+    }
+  ]
+}
