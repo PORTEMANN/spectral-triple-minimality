@@ -98,7 +98,7 @@ If you use this code or theorems, please cite:
   author  = {Patrice Portemann},
   title   = {Minimality Theorems for Finite Spectral Triples with a Zero-Chiral Scalar Field},
   journal = {arXiv preprint},
-  year    = {2027},
+  year    = {2026},
   note    = {Submitted to math-ph / hep-th}
 }
 ```
