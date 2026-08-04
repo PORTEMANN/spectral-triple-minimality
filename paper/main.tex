@@ -9,6 +9,10 @@
 \usepackage{booktabs}
 \usepackage{cite}
 
+% Line-breaking tolerance for math-heavy paragraphs
+\tolerance=1000
+\emergencystretch=3em
+
 % Theorem environments
 \theoremstyle{definition}
 \newtheorem{theorem}{Theorem}[section]
@@ -57,10 +61,12 @@ All computations reported here were frozen under protocol C12.1: thresholds, exp
 \section{Finite spectral triples and the Krajewski amendment}
 %=====================================================================
 
-\begin{definition}[Finite spectral triple \cite{krajewski1998}]
-A finite spectral triple $(\mathcal{A}_F, \mathcal{H}_F, D_F)$ consists of:
+\begin{definition}[Finite spectral triple]
+A finite spectral triple $(\mathcal{A}_F, \mathcal{H}_F, D_F)$, in the sense of Krajewski~\cite{krajewski1998}, consists of:
 \begin{enumerate}
-    \item A finite-dimensional real $C^*$-algebra $\mathcal{A}_F = \bigoplus_{i=1}^{k} M_{n_i}(\mathbb{K}_i)$ with $\mathbb{K}_i \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$.
+    \item A finite-dimensional real $C^*$-algebra
+    $\mathcal{A}_F = \bigoplus_{i=1}^{k} M_{n_i}(\mathbb{K}_i)$
+    with $\mathbb{K}_i \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$.
     \item A finite-dimensional Hilbert space $\mathcal{H}_F$ with faithful representation of $\mathcal{A}_F$.
     \item A self-adjoint operator $D_F$ on $\mathcal{H}_F$.
     \item A chirality $\gamma_F$ and a real structure $J_F$ satisfying the KO-dimension axioms.
@@ -123,7 +129,7 @@ All four bounds of T1--T2 are saturated by the minimal realization $\mathcal{A}_
 \end{theorem}
 
 \begin{proof}[Certification]
-The enumeration was performed by the Python module \texttt{enumeration.py} (see repository \cite{portemann2027repo}). Protocol C12.1 (freeze ID \texttt{C12.1-krajewski}) was applied: enumeration parameters were fixed before execution, and each solution was hashed with SHA-256. The total count 63,160 was verified by an independent run on a different machine. The checksum is registered as \texttt{7818d566...750ec}.
+The enumeration was performed by the Python module \texttt{enumeration.py} (see repository \cite{portemann2027repo}). Protocol C12.1 (freeze ID \texttt{C12.1-krajewski}) was applied: parameters fixed before execution, and each solution hashed with SHA-256. The total count 63,160 was verified by an independent run. The checksum is \url{7818d566...750ec}.
 \end{proof}
 
 %=====================================================================
@@ -179,6 +185,7 @@ All results are reproducible: the enumeration code, certification protocol, and 
 
 %=====================================================================
 \begin{thebibliography}{99}
+\hbadness=10000
 \bibitem{connes1994} A. Connes, \textit{Noncommutative Geometry}, Academic Press, 1994.
 \bibitem{cc1997} A. H. Chamseddine, A. Connes, ``The Spectral Action Principle,'' \textit{Comm. Math. Phys.} 186 (1997), 731--750.
 \bibitem{krajewski1998} T. Krajewski, ``Classification of finite spectral triples,'' \textit{J. Geom. Phys.} 28 (1998), 1--30.
