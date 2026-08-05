@@ -37,12 +37,35 @@ M_min(R) = { sqf(R)   if R is odd
 - **KO-6 champion**: signature `(3, 3)` for `N = 6` is independent of completion form — the true structural wall.
 - **Standard Model obstruction**: on the nodal set `(C ⊕ H ⊕ M₃(C))`, all margins are even; the `sqf` law does **not** constrain the number of generations `N`. Published as a **negative result** with the same care as a success.
 
+## Related Repositories
+
+| Repository | Role |
+|------------|------|
+| [**noetic-machine**](https://github.com/PORTEMANN/noetic-machine) | Core solver — SU(2) Georgi–Glashow implementation with 5 confirmed predictions (P0–P4) |
+| [**noetic-applications**](https://github.com/PORTEMANN/noetic-applications) | 14 experimental case studies (P7–P20) applying the finite-core solver |
+| [**ko6-spectral-solver**](https://github.com/PORTEMANN/ko6-spectral-solver) | Spectral benchmarks B1–B3 (Taylor–Green, KdV, Ising 2D) |
+
+## Citation
+
+```bibtex
+@article{portemann2027spectral,
+  author  = {Portemann, Patrice},
+  title   = {Minimality Theorems for Finite Spectral Triples with a Zero-Chiral Scalar Field},
+  journal = {arXiv preprint},
+  year    = {2027},
+  note    = {Submitted to math-ph / hep-th}
+}
+```
+
+See [CITATION.bib](CITATION.bib) for cross-repository entries.
+
 ## Repository Structure
 
 ```
 spectral-triple-minimality/
 ├── README.md                    # This file
 ├── LICENSE                      # MIT License
+├── CITATION.bib                 # Cross-repo BibTeX entries
 ├── paper/
 │   ├── main.tex                 # LaTeX source (arXiv: math-ph / hep-th)
 │   ├── references.bib           # Bibliography
@@ -88,20 +111,6 @@ Every result in this repository is subject to:
 1. **Pre-computation freeze** (C12.1): protocol, thresholds, and expected outcomes are written *before* any computation.
 2. **Version lock**: all versions of the article are preserved. Corrections are appended, never overwritten.
 3. **Negative-result policy**: null or obstruction results are published with the same rigor as positive results.
-
-## Citation
-
-If you use this code or theorems, please cite:
-
-```bibtex
-@article{portemann2027spectral,
-  author  = {Patrice Portemann},
-  title   = {Minimality Theorems for Finite Spectral Triples with a Zero-Chiral Scalar Field},
-  journal = {arXiv preprint},
-  year    = {2026},
-  note    = {Submitted to math-ph / hep-th}
-}
-```
 
 ## License
 
