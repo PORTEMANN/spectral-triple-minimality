@@ -3,7 +3,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-a%20soumettre-b31b1b.svg)](https://arxiv.org)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Zenodo](https://doi.org/10.5281/zenodo.21810569)
+[![zenodo](https://doi.org/10.5281/zenodo.21810569)
 
 > **Complete minimality theorems for finite spectral triples with a zero-chiral scalar field, certified classification, and a general arithmetic multiplicity law.**
 
