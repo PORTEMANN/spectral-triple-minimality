@@ -1,5 +1,6 @@
 # Spectral Triple Minimality
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21810569.svg)](https://doi.org/10.5281/zenodo.21810569)
 [![arXiv](https://img.shields.io/badge/arXiv-a%20soumettre-b31b1b.svg)](https://arxiv.org)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -7,6 +8,8 @@
 > **Complete minimality theorems for finite spectral triples with a zero-chiral scalar field, certified classification, and a general arithmetic multiplicity law.**
 
 This repository contains the computational core, certification protocol, and LaTeX source for the paper *"Minimality Theorems for Finite Spectral Triples with a Zero-Chiral Scalar Field"*.
+
+**Archived reference (Zenodo):** [doi.org/10.5281/zenodo.21810569](https://doi.org/10.5281/zenodo.21810569)
 
 ## Overview
 
@@ -45,16 +48,18 @@ M_min(R) = { sqf(R)   if R is odd
 | [**noetic-machine**](https://github.com/PORTEMANN/noetic-machine) | Core solver — SU(2) Georgi–Glashow implementation with 5 confirmed predictions (P0–P4) |
 | [**noetic-applications**](https://github.com/PORTEMANN/noetic-applications) | 14 experimental case studies (P7–P20) applying the finite-core solver |
 | [**ko6-spectral-solver**](https://github.com/PORTEMANN/ko6-spectral-solver) | Spectral benchmarks B1–B3 (Taylor–Green, KdV, Ising 2D) |
+| [**noetic-machine-complete**](https://github.com/PORTEMANN/noetic-machine-complete) | Complete P0–P31 corpus — verdicts, scripts, data, notes (DOI: [10.5281/zenodo.21807052](https://doi.org/10.5281/zenodo.21807052)) |
 
 ## Citation
 
 ```bibtex
-@article{portemann2027spectral,
+@misc{portemann2026minimality,
   author  = {Portemann, Patrice},
   title   = {Minimality Theorems for Finite Spectral Triples with a Zero-Chiral Scalar Field},
-  journal = {arXiv preprint},
-  year    = {2027},
-  note    = {Submitted to math-ph / hep-th}
+  year    = {2026},
+  doi     = {10.5281/zenodo.21810569},
+  url     = {https://doi.org/10.5281/zenodo.21810569},
+  note    = {arXiv submission in preparation (math-ph / hep-th)}
 }
 ```
 
