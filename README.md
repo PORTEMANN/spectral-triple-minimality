@@ -4,12 +4,15 @@
 [![arXiv](https://img.shields.io/badge/arXiv-a%20soumettre-b31b1b.svg)](https://arxiv.org)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0009--4016--8389-A6CE39?logo=orcid)](https://orcid.org/0009-0009-4016-8389)
 
 > **Complete minimality theorems for finite spectral triples with a zero-chiral scalar field, certified classification, and a general arithmetic multiplicity law.**
 
 This repository contains the computational core, certification protocol, and LaTeX source for the paper *"Minimality Theorems for Finite Spectral Triples with a Zero-Chiral Scalar Field"*.
 
 **Archived reference (Zenodo):** [doi.org/10.5281/zenodo.21810569](https://doi.org/10.5281/zenodo.21810569)
+
+**Author:** Patrice Portemann — [ORCID: 0009-0009-4016-8389](https://orcid.org/0009-0009-4016-8389)
 
 ## Overview
 
